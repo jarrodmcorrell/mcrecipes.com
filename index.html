@@ -6,8 +6,7 @@
     <title>McRecipe | Home</title>
     
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/697787736530092042/752942571231379576/MacFavicon.png" />
 </head>
 <body>
@@ -15,30 +14,63 @@
     
     <header>
         <div class="logo">
-        <img src="https://cdn.discordapp.com/attachments/697787736530092042/752942571231379576/MacFavicon.png" style="height:60px;"alt="" srcset="">
-        <h1 class="logo">MCrecipes</h1>
+        <img src="https://cdn.discordapp.com/attachments/697787736530092042/752942571231379576/MacFavicon.png" style="height:60px;margin-top:10px;"alt="" srcset="">
+        <h1 class= "logotext"><a href="index.html" class="logo">MCrecipes</a></h1>
         </div>
-
         <nav>
             <u1 class ="nav-links">
-                <li><a class="nav-link" href="#">Submit Your Favorite Recipes</a></li> 
+                <li><a class="nav-link" href="/submit.html">Submit Your Favorite Recipes</a></li> 
                 <li><a class="nav-link" href="#">About</a></li> 
                 <li><a class="nav-link" href="#">Contact</a></li> 
             </u1>
         </nav>
-
         <div class = "donate">
-            <img style="width:100px;"src="https://www.pngfind.com/pngs/m/72-727053_donate-download-png-image-red-donation-button-twitch.png" alt="Donate">
-            </div>
-
-
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="VCNXR988DU6Z8" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+        </div>
     </header>
 
     <div class="container">
         <div class="column">
             <div class="recipe-item" id="recipe-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/1200px-Original_Mac_n_Cheese_.jpg" alt="" srcset="">
                 <div class="overlay">
+                    <div class= "text">
+                        <h3>Sam's Mac and Cheese:</h3>
+                        <p style="font-size: 14px;">- 8 oz Uncooked Elbow Macaroni<br>
+                           - 2 cups Shredded Sharp Cheddar Cheese<br>
+                           - 4 cups of milk
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-4"><img src="https://www.inspiredtaste.net/wp-content/uploads/2018/10/Easy-Creamy-Stovetop-Mac-and-Cheese-1200.jpg" alt="">
+                <div class="overlay">
                     <div class= "text">Recipe</div>
+                </div>
+            </div> 
+            <div class="recipe-item" id="recipe-4"><img src="https://www.seasonsandsuppers.ca/wp-content/uploads/2013/01/mac-cheese-3.jpg" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-3"><img src="https://www.browneyedbaker.com/wp-content/uploads/2014/07/Slow-Cooker-Macaroni-and-Cheese-5-754.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/1200px-Original_Mac_n_Cheese_.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">
+                        <h3>Sam's Mac and Cheese:</h3>
+                        <p style="font-size: 14px;">- 8 oz Uncooked Elbow Macaroni<br>
+                           - 2 cups Shredded Sharp Cheddar Cheese<br>
+                           - 4 cups of milk
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="recipe-item" id="recipe-4"><img src="https://www.inspiredtaste.net/wp-content/uploads/2018/10/Easy-Creamy-Stovetop-Mac-and-Cheese-1200.jpg" alt="">
@@ -58,6 +90,26 @@
             </div>
         </div>
         <div class="column">
+            <div class="recipe-item" id="recipe-4"><img src="https://www.modernhoney.com/wp-content/uploads/2019/03/Creamy-Jalapeno-Macaroni-and-Cheese-6.jpg" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div> 
+            <div class="recipe-item" id="recipe-4"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd28%2Fmac-and-cheese-07000716-0518%2Fmac-and-cheese-07000716-0518_horiz.jpg%3Fitok%3DWly0GLlj" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-3"><img src="https://www.seasonsandsuppers.ca/wp-content/uploads/2013/01/mac-cheese-3.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/1200px-Original_Mac_n_Cheese_.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
             <div class="recipe-item" id="recipe-4"><img src="https://www.modernhoney.com/wp-content/uploads/2019/03/Creamy-Jalapeno-Macaroni-and-Cheese-6.jpg" alt="">
                 <div class="overlay">
                     <div class= "text">Recipe</div>
@@ -100,6 +152,26 @@
                     <div class= "text">Recipe</div>
                 </div>
             </div>
+            <div class="recipe-item" id="recipe-4"><img src="https://www.modernhoney.com/wp-content/uploads/2019/03/Creamy-Jalapeno-Macaroni-and-Cheese-6.jpg" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div> 
+            <div class="recipe-item" id="recipe-4"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd28%2Fmac-and-cheese-07000716-0518%2Fmac-and-cheese-07000716-0518_horiz.jpg%3Fitok%3DWly0GLlj" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-3"><img src="https://www.seasonsandsuppers.ca/wp-content/uploads/2013/01/mac-cheese-3.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/1200px-Original_Mac_n_Cheese_.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
         </div>
         <div class="column">
             <div class="recipe-item" id="recipe-4"><img src="https://www.modernhoney.com/wp-content/uploads/2019/03/Creamy-Jalapeno-Macaroni-and-Cheese-6.jpg" alt="">
@@ -118,6 +190,26 @@
                 </div>
             </div>
             <div class="recipe-item" id="recipe-3"><img src="https://www.browneyedbaker.com/wp-content/uploads/2014/07/Slow-Cooker-Macaroni-and-Cheese-5-754.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-4"><img src="https://www.modernhoney.com/wp-content/uploads/2019/03/Creamy-Jalapeno-Macaroni-and-Cheese-6.jpg" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div> 
+            <div class="recipe-item" id="recipe-4"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd28%2Fmac-and-cheese-07000716-0518%2Fmac-and-cheese-07000716-0518_horiz.jpg%3Fitok%3DWly0GLlj" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-3"><img src="https://www.seasonsandsuppers.ca/wp-content/uploads/2013/01/mac-cheese-3.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/1200px-Original_Mac_n_Cheese_.jpg" alt="" srcset="">
                 <div class="overlay">
                     <div class= "text">Recipe</div>
                 </div>
@@ -144,9 +236,34 @@
                     <div class= "text">Recipe</div>
                 </div>
             </div>
+            <div class="recipe-item" id="recipe-4"><img src="https://www.modernhoney.com/wp-content/uploads/2019/03/Creamy-Jalapeno-Macaroni-and-Cheese-6.jpg" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div> 
+            <div class="recipe-item" id="recipe-4"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd28%2Fmac-and-cheese-07000716-0518%2Fmac-and-cheese-07000716-0518_horiz.jpg%3Fitok%3DWly0GLlj" alt="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-3"><img src="https://www.seasonsandsuppers.ca/wp-content/uploads/2013/01/mac-cheese-3.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
+            <div class="recipe-item" id="recipe-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/1200px-Original_Mac_n_Cheese_.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <div class= "text">Recipe</div>
+                </div>
+            </div>
         </div>
     </div>
-
+    <header style="">
+        <div class="logo" style="margin-left:43%;">
+        <img src="https://cdn.discordapp.com/attachments/697787736530092042/752942571231379576/MacFavicon.png" style="height:60px;margin-top:10px;"alt="" srcset="">
+        <h1 class= "logotext"><a href="index.html" class="logo">MCrecipes</a></h1>
+        </div>
+    </header>
 
 
     <script src="index.js"></script>
